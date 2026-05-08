@@ -45,20 +45,28 @@ Full OCR → TF-IDF → ML pipeline on RVL-CDIP. Compared SVM, RF, LR, NB — en
 
 ---
 
-**[NLP Summarization Pipeline](https://github.com/mjcolmenarez)** &nbsp; `ROUGE-L eval`  
-Extractive baseline + fine-tuned DistilBART. Proper ROUGE evaluation — DistilBART beat base BART across all metrics.  
+**NLP Summarization Pipeline** &nbsp; `ROUGE-L eval`  
+Extractive baseline + fine-tuned DistilBART. Proper ROUGE evaluation — DistilBART beat base BART across all metrics. Developed in a university cluster environment.  
 `HuggingFace` `DistilBART` `ROUGE` `Seq2Seq`
-
----
-
-**[Statistical Learning Stack](https://github.com/mjcolmenarez)** &nbsp; `full stack`  
-Docker Compose backend (PostgreSQL, MinIO, Django REST, django-q) built from scratch. Data pipelines for model training and evaluation.  
-`Docker` `PostgreSQL` `Django` `MinIO` `Python`
 
 ---
 
 **[RL Mountain Car Agent](https://github.com/mjcolmenarez)** &nbsp; `87.5% Q-learning`  
 Q-Learning vs SARSA comparative analysis with policy maps. Extended to DQN with experience replay and ε-greedy exploration.  
+`Q-Learning` `DQN` `Keras` `OpenAI Gym`
+
+---
+
+### // collaborations
+
+> contributed to these group projects — commits appear under *Maria Jose Colmenarez* due to a local git config mismatch
+
+**[saeka8/statistical_learning_group_assignment](https://github.com/saeka8/statistical_learning_group_assignment)**  
+Document classification pipeline on RVL-CDIP — built the SVM/RF/LR/NB classifiers, ablation study, and ensemble. `93.8% accuracy`  
+`scikit-learn` `TF-IDF` `OCR` `Python`
+
+**[Wilyam390/Mountain-Car](https://github.com/Wilyam390/Mountain-Car)**  
+Comparative analysis notebook — Q-Learning vs SARSA training, policy maps, and DQN extension with experience replay. `87.5% Q-learning`  
 `Q-Learning` `DQN` `Keras` `OpenAI Gym`
 
 ---
